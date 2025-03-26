@@ -259,14 +259,14 @@ display: flex;
 }
 
 
-@media (max-width: 912px) {
+@media (max-width: 900px) {
 
     .icon-menu{ 
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
     .intro{
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         margin-bottom: 100px;
     }
@@ -280,23 +280,24 @@ display: flex;
         width: 100%;
     }
     .img-perfil{
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 250px;
         margin-top: 30px;
+        margin-bottom: 0;
     }
     .person-name{
-        margin-top: 250px;
-        font-size: 25px;
+        margin-top: 60px;
+        font-size: 15px;
     }
 
     .bio-text{
-        margin-top: 150px;
+        margin-top: 120px;
         width: 80%;
         text-align: left;
     }
     
     .text-p{
-        font-size: 35px;
+        font-size: 20px;
     }
     .next{
         width: 100%;
@@ -304,5 +305,27 @@ display: flex;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .img-content{
+        width: 150px;
+        height: 150px;
+        background-color: #bd78fc;
+    }
+    .app-content{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .app-content img{
+        width: 100px;
+    }
+    .services{
+        width: 100vw;
+    }
+    .section{
+        width: 100vw;
+    }
+    .knowledge{
+        display: block;
     }
   }
